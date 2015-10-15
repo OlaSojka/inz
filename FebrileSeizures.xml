@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<expertSystem xmlns="http://tempuri.org/XMLSchema.xsd" >
+  <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>1</yes>
+    <no>2</no>
+    <content>
+      Are all of the following criteria met?
+      •	fever
+      •	generalized convulsions
+      •	convulsions lasting less than 15 minutes
+      •	normal result of neurological test
+      •	no central nervous system disease or factors damaging central nervous system in an interview
+    </content>
+  </question>
+  <question a:ID="1" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>3</yes>
+    <no>4</no>
+    <content>
+      •	Determine the cause of the fever.
+      •	If you find infection, apply appropriate treatment.
+      •	Use antipyretics.
+      •	Do not perform marking of the electrolytes and glucose’s concentration in the serum or the examination of blood count as a matter of course.
+      •	Do not perform MRI, CT or MRI of the head as a matter of course.
+
+      Does the child has the signs of meningism?
+    </content>
+  </question>
+  <question a:ID="2" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      •	Do not identify simple febrile seizures.
+      •	Use appropriate evaluation and treatment.
+    </content>
+  </question>
+  <question a:ID="3" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>5</yes>
+    <no>6</no>
+    <content>
+      Perform lumbar puncture.
+
+      Is the result normal?
+    </content>
+  </question>
+  <question a:ID="4" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>7</yes>
+    <no>8</no>
+    <content>Is the child 1 year or less old?</content>
+  </question>
+  <question a:ID="5" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>9</yes>
+    <no>10</no>
+    <content>
+      Identify simple febrile seizures.
+
+      Is general state of the patient good?
+    </content>
+  </question>
+</expertSystem>
