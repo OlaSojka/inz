@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<expertSystem xmlns="http://tempuri.org/XMLSchema.xsd">
+  <title>Clinical evaluation of a patient with chest pain.</title>
+  <description></description>
+  <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>1</yes>
+    <no>2</no>
+    <content></content>
+  </question>
+  <sources>
+    <source>
+      <linkDescription>Gajewski P., dr med., Goncerz G., Postępowanie w przewlekłej stabilnej dławicy piersiowej. Aktualne (2002) stanowisko American College of Cardiology i American Heart Association.</linkDescription>
+      <link>http://www.mp.pl/artykuly/15797</link>
+    </source>
+  </sources>
+</expertSystem>

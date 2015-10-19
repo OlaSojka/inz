@@ -10,6 +10,10 @@
   <xs:element name="yes" type="xs:int"/>
   <xs:element name="no" type="xs:int"/>
   <xs:element name="content" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="link" type="xs:anyURI"/>
+  <xs:element name="linkDescription" type="xs:string"/>
   
   <!-- definition of attributes -->
   <xs:attribute name="ID" type="xs:int"/>
@@ -31,10 +35,30 @@
     </xs:unique>
   </xs:element>
 
+  <xs:element name="source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="linkDescription" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="link" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType> 
+  </xs:element>
+  
+  <xs:element name="sources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="source" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
   <xs:element name="expertSystem">
     <xs:complexType>
       <xs:sequence>
+        <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="description" minOccurs="1" maxOccurs="1"/>
         <xs:element ref="question" maxOccurs="unbounded"/>
+        <xs:element ref="sources" minOccurs="1" maxOccurs="1"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

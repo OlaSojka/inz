@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<expertSystem xmlns="http://tempuri.org/XMLSchema.xsd">
+  <title>Diagnosis of pediatric skin rashes.</title>
+  <description></description>
+  <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>1</yes>
+    <no>2</no>
+    <content>Asses rash; are there fluid filled lesions?</content>
+  </question>
+  <question a:ID="1" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>3</yes>
+    <no>4</no>
+    <content>Is the fluid clear?</content>
+  </question>
+  <question a:ID="2" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>5</yes>
+    <no>6</no>
+    <content>Is it papular?</content>
+  </question>
+  <question a:ID="3" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Vesiculobullous rash:
+      Varicella zoster, Impetigo, Scaled skin syndrome, HSV, Eczema herpeticum, Erythema multiforme, SJS, Insect bites, Burns
+    </content>
+  </question>
+  <question a:ID="4" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Pustular rash:
+      Acne, TPMN, Psoriasis
+    </content>
+  </question>
+  <question a:ID="5" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Papular rash:
+      Urticaria, Molluscum contagiosum, Scabies, Warts, Keratosis pilaris
+    </content>
+  </question>
+  <question a:ID="6" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>7</yes>
+    <no>8</no>
+    <content>Is it red?</content>
+  </question>
+  <question a:ID="7" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>9</yes>
+    <no>10</no>
+    <content>Is it scaly?</content>
+  </question>
+  <question a:ID="8" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>15</yes>
+    <no>16</no>
+    <content>Is it blue or black?</content>
+  </question>
+  <question a:ID="9" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>11</yes>
+    <no>12</no>
+    <content>Epidermal breakage?</content>
+  </question>
+  <question a:ID="10" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>13</yes>
+    <no>14</no>
+    <content>Does it blanch?</content>
+  </question>
+  <question a:ID="11" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Eczematous rash:
+      Atopic eczema, Other dermatitis
+    </content>
+  </question>
+  <question a:ID="12" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Papulosquamous rash:
+      Seborrhoeic dermatitis, Psoriasis, Tinea corporis, Pityriasis rosea
+    </content>
+  </question>
+  <question a:ID="13" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Erythematous rash:
+      Erythema infectiosum, Roseola infantum, Other viral exanthems, Kawasaki disease, Cellulitis
+    </content>
+  </question>
+  <question a:ID="14" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Purpuric rash:
+      Meningococcemia/septicemia,  Henoch-Schonlein purpura, ITP, NAI, Trauma, Enterovirus, Leukemia
+    </content>
+  </question>
+  <question a:ID="15" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Blue or black rash:
+      Hemangiomas, Vascular malformations
+    </content>
+  </question>
+  <question a:ID="16" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>17</yes>
+    <no>18</no>
+    <content>Is it hyperpigmented?</content>
+  </question>
+  <question a:ID="17" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Hyperpigmented rash:
+      Naevi – congenital and acquired
+    </content>
+  </question>
+  <question a:ID="18" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      Hypopigmented rash:
+      Pityriasisversicolor and alba, Vitiligo
+    </content>
+  </question>
+  <sources>
+    <source>
+      <linkDescription>Common Childhood Rashes</linkDescription>
+      <link>http://patient.info/doctor/common-childhood-rashes</link>
+    </source>
+  </sources>
+</expertSystem>

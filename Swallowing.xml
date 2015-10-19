@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <expertSystem xmlns="http://tempuri.org/XMLSchema.xsd">
+  <title>Screening of swallowing in patients after stroke.</title>
+  <description></description>
   <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
     <isConclusion>false</isConclusion>
     <yes>2</yes>
@@ -90,4 +92,14 @@
       Start feeding carefully, starting with soft dishes. Watch if patient does not cough or develop the signs of respiratory tracts infection.
     </content>
   </question>
+  <sources>
+    <source>
+      <linkDescription>Czernuszenko A., dr n. med., Przegląd objawów dysfagii towarzyszących uszkodzeniu różnych struktur.</linkDescription>
+      <link>http://polykanie.reisspartners.pl/index.php/informacje-dla-lekarzy/przesiewowe-testy-polykania/8-dla-lekarzy</link>
+    </source>
+    <source>
+      <linkDescription>Swallowing Disorders (Dysphagia) in Adults</linkDescription>
+      <link>http://www.asha.org/public/speech/swallowing/Swallowing-Disorders-in-Adults/</link>
+    </source>
+  </sources>
 </expertSystem>

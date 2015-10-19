@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <expertSystem xmlns="http://tempuri.org/XMLSchema.xsd" >
+  <title>A diagnostic procedure and preventive treatment after the first attack of febrile seizures in children between 6 months and 5 years of age.</title>
+  <description></description>
   <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
     <isConclusion>false</isConclusion>
     <yes>1</yes>
@@ -60,4 +62,96 @@
       Is general state of the patient good?
     </content>
   </question>
+  <question a:ID="6" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>11</yes>
+    <no>12</no>
+    <content>Does the child have bacterial meningitis?</content>
+  </question>
+  <question a:ID="7" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>5</yes>
+    <no>6</no>
+    <content>
+      Perform lumbar puncture at every child. No signs of meningism do not exclude meningitis.
+
+      Is the result normal?
+    </content>
+  </question>
+  <question a:ID="8" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>13</yes>
+    <no>14</no>
+    <content>Has the child received antibiotics before a seizure?</content>
+  </question>
+  <question a:ID="9" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>
+      •	Discharge patient for the hospital.
+      •	Instruct parents how to act when febrile seizures occur.
+      •	Do not perform control EEG.
+    </content>
+  </question>
+  <question a:ID="10" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>Hospitalization until the improvement of the patient’s state.</content>
+  </question>
+  <question a:ID="11" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>Start proper treatment</content>
+  </question>
+  <question a:ID="12" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>true</isConclusion>
+    <content>Perform proper diagnostics and treatment</content>
+  </question>
+  <question a:ID="13" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>5</yes>
+    <no>6</no>
+    <content>
+      Perform lumbar puncture at every child. Therapy with antibiotics can mask symptoms of meningitis.
+
+      Is the result normal?
+    </content>
+  </question>
+  <question a:ID="14" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>15</yes>
+    <no>16</no>
+    <content>Is the child 12 to 18 months old?</content>
+  </question>
+  <question a:ID="15" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>17</yes>
+    <no>5</no>
+    <content>
+      Consider performing lumbar puncture. Signs of meningitis at this age may be faint.
+
+      Was lumbar puncture done?
+    </content>
+  </question>
+  <question a:ID="16" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>9</yes>
+    <no>10</no>
+    <content>
+      Age above 18 months and no signs of meningism. Identify simple febrile seizures.
+
+      Do not perform lumbar puncture as the matter of course (unless clinical symptoms indicate meningitis).
+
+      Is general state of the patient good?
+    </content>
+  </question>
+  <question a:ID="17" xmlns:a="http://tempuri.org/XMLSchema.xsd">
+    <isConclusion>false</isConclusion>
+    <yes>5</yes>
+    <no>6</no>
+    <content>Is the result normal?</content>
+  </question>
+  <sources>
+    <source>
+      <linkDescription>Wendorff J., doc. dr hab. med., Drgawki gorączkowe proste - postępowanie diagnostyczne po pierwszym napadzie i leczenie zapobiegawcze. Stanowiska Amerykańskiej Akademii Pediatrii w opinii polskich specjalistów.</linkDescription>
+      <link>http://www.mp.pl/artykuly/12281</link>
+    </source>
+  </sources>
 </expertSystem>
