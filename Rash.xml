@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <expertSystem xmlns="http://tempuri.org/XMLSchema.xsd">
   <title>Diagnosis of pediatric skin rashes.</title>
-  <description></description>
+  <description>pediatric rash bla bla bla</description>
+  <questions>
   <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
     <isConclusion>false</isConclusion>
     <yes>1</yes>
@@ -126,6 +127,7 @@
       Pityriasisversicolor and alba, Vitiligo
     </content>
   </question>
+  </questions>
   <sources>
     <source>
       <linkDescription>Common Childhood Rashes</linkDescription>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <expertSystem xmlns="http://tempuri.org/XMLSchema.xsd">
   <title>Clinical evaluation of a patient with chest pain.</title>
-  <description></description>
+  <description>chest pain bla bla bla</description>
+  <questions>
   <question a:ID="0" xmlns:a="http://tempuri.org/XMLSchema.xsd">
     <isConclusion>false</isConclusion>
     <yes>1</yes>
@@ -109,6 +110,7 @@
     <no>14</no>
     <content>Symptoms of left valve damage?</content>
   </question>
+  </questions>
   <sources>
     <source>
       <linkDescription>Gajewski P., dr med., Goncerz G., Postępowanie w przewlekłej stabilnej dławicy piersiowej. Aktualne (2002) stanowisko American College of Cardiology i American Heart Association.</linkDescription>

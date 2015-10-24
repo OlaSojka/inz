@@ -35,6 +35,14 @@
     </xs:unique>
   </xs:element>
 
+  <xs:element name="questions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="question" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
   <xs:element name="source">
     <xs:complexType>
       <xs:sequence>
@@ -57,7 +65,7 @@
       <xs:sequence>
         <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
         <xs:element ref="description" minOccurs="1" maxOccurs="1"/>
-        <xs:element ref="question" maxOccurs="unbounded"/>
+        <xs:element ref="questions" minOccurs="1" maxOccurs="1"/>
         <xs:element ref="sources" minOccurs="1" maxOccurs="1"/>
       </xs:sequence>
     </xs:complexType>
